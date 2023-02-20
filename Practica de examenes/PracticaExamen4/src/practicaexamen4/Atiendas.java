@@ -13,7 +13,8 @@ public class Atiendas {
     private String nombre;
     private boolean discapacidad;
 
-    public Atiendas(String id, String nombre, boolean discapacidad) {
+    public Atiendas(String id, String nombre,
+                    boolean discapacidad) {
         this.id = id;
         this.nombre = nombre;
         this.discapacidad = discapacidad;
