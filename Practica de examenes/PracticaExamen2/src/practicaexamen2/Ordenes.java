@@ -14,7 +14,9 @@ public class Ordenes {
     private double total;
     private Platos platos;
 
-    public Ordenes(String id, String nombre, String cedula, boolean discapacidad, String producto, double total, Platos platos) {
+    public Ordenes(String id, String nombre, String cedula,
+                   boolean discapacidad, String producto, 
+                   double total, Platos platos) {
         this.id = id;
         this.nombre = nombre;
         this.cedula = cedula;
